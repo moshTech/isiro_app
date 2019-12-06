@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   Future<bool> _mockCheckForSession() async {
-    await Future.delayed(Duration(seconds: 15), () {});
+    await Future.delayed(Duration(seconds: 5), () {});
 
     return true;
   }
